@@ -33,7 +33,7 @@ export default {
         background: #d9d9d9;
         $h: 24px;
         height: $h;
-        line-height: $h/2;
+        line-height: $h;
         border-radius: $h/2;
         padding: 0 16px;
         margin-right: 12px;
