@@ -49,6 +49,7 @@
     flex-direction: column-reverse;
     font-size: 14px;
     padding: 16px;
+    baackground: white;
     > .current {
       display: flex;
       flex-wrap: wrap; 
