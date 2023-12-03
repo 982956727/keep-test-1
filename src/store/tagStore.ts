@@ -52,8 +52,8 @@ const tagStore = {
       return 'not found'
     }
   },
-  saveTags() {
-    window.localStorage.setItem(localStorageKeyName,JSON.stringify(this.tagList));
+  saveTags(state) {
+    window.localStorage.setItem(localStorageKeyName,JSON.stringify(state.tagList));
   }
 };
 
