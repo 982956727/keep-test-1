@@ -11,8 +11,8 @@
 </template>
 
 <script lang="ts">
-  import Vue from 'vue'
-  import { Component,Watch,Prop } from 'vue-property-decorator';
+  import Vue from 'vue';
+  import { Component,Prop } from 'vue-property-decorator';
 
   @Component
   export default class FromItem extends Vue {
