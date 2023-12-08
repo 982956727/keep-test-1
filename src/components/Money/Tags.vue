@@ -40,6 +40,7 @@
   }
 </script>
 <style lang="scss" scoped>
+  @use "sass:math";
   @import "~@/assets/style/helper.scss";
   .tags {
     flex-grow: 1;
@@ -58,7 +59,7 @@
         $h: 24px;
         height: $h;
         line-height: $h;
-        border-radius: $h/2;
+        border-radius: math.div($h, 2);
         padding: 0 16px;
         margin-right: 12px;
         margin-top: 4px;
